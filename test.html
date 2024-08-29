@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="cbfe4edefdd541fca027f1f98ba7166b" class="chart-container" style="width:1600px; height:600px; "></div>
+    <script>
+        var chart_cbfe4edefdd541fca027f1f98ba7166b = echarts.init(
+            document.getElementById('cbfe4edefdd541fca027f1f98ba7166b'), 'white', {renderer: 'canvas'});
+        var option_cbfe4edefdd541fca027f1f98ba7166b = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "D4 Daily Views",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": true,
+            "clip": true,
+            "step": false,
+            "stackStrategy": "samesign",
+            "data": [
+                [
+                    "2024/8/5",
+                    1590250
+                ],
+                [
+                    "2024/8/6",
+                    2615069
+                ],
+                [
+                    "2024/8/7",
+                    2824419
+                ],
+                [
+                    "2024/8/8",
+                    2691819
+                ],
+                [
+                    "2024/8/9",
+                    2833228
+                ],
+                [
+                    "2024/8/10",
+                    2890954
+                ],
+                [
+                    "2024/8/11",
+                    2252788
+                ],
+                [
+                    "2024/8/12",
+                    3480110
+                ],
+                [
+                    "2024/8/13",
+                    2514748
+                ],
+                [
+                    "2024/8/14",
+                    2578832
+                ],
+                [
+                    "2024/8/15",
+                    2531792
+                ],
+                [
+                    "2024/8/16",
+                    2481707
+                ],
+                [
+                    "2024/8/17",
+                    2713318
+                ],
+                [
+                    "2024/8/18",
+                    2213141
+                ],
+                [
+                    "2024/8/19",
+                    2185448
+                ],
+                [
+                    "2024/8/20",
+                    2488738
+                ],
+                [
+                    "2024/8/21",
+                    2553370
+                ],
+                [
+                    "2024/8/22",
+                    2064342
+                ],
+                [
+                    "2024/8/23",
+                    1898961
+                ],
+                [
+                    "2024/8/24",
+                    1859510
+                ],
+                [
+                    "2024/8/25",
+                    2052265
+                ],
+                [
+                    "2024/8/26",
+                    1406269
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "formatter":             function(a){            var result = [ ], counter = 0;            var num_array = a.data.toString().split('.');            var num = num_array[0];            var newstr = '';            for (var i = num.length - 1; i >= 10; i--) {                counter++;                result.unshift(num[i]);                if (!(counter % 3) && i != 0 && i != 10) {                     result.unshift(',');                }            }            if(num_array.length>1){                newstr = result.join('');                newstr += '.'+num_array[1];                return newstr;            }else{                return result.join('');            }            }
+            },
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markLine": {
+                "silent": false,
+                "precision": 2,
+                "label": {
+                    "show": true,
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "name": "\u5e73\u5747\u503c",
+                        "type": "average"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "POE2 Daily Views",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": true,
+            "clip": true,
+            "step": false,
+            "stackStrategy": "samesign",
+            "data": [
+                [
+                    "2024/8/5",
+                    27990
+                ],
+                [
+                    "2024/8/6",
+                    39469
+                ],
+                [
+                    "2024/8/7",
+                    37357
+                ],
+                [
+                    "2024/8/8",
+                    32951
+                ],
+                [
+                    "2024/8/9",
+                    31691
+                ],
+                [
+                    "2024/8/10",
+                    29983
+                ],
+                [
+                    "2024/8/11",
+                    38130
+                ],
+                [
+                    "2024/8/12",
+                    54688
+                ],
+                [
+                    "2024/8/13",
+                    32277
+                ],
+                [
+                    "2024/8/14",
+                    28037
+                ],
+                [
+                    "2024/8/15",
+                    34643
+                ],
+                [
+                    "2024/8/16",
+                    26610
+                ],
+                [
+                    "2024/8/17",
+                    144738
+                ],
+                [
+                    "2024/8/18",
+                    68460
+                ],
+                [
+                    "2024/8/19",
+                    76506
+                ],
+                [
+                    "2024/8/20",
+                    456081
+                ],
+                [
+                    "2024/8/21",
+                    315754
+                ],
+                [
+                    "2024/8/22",
+                    895818
+                ],
+                [
+                    "2024/8/23",
+                    1332835
+                ],
+                [
+                    "2024/8/24",
+                    1222496
+                ],
+                [
+                    "2024/8/25",
+                    480940
+                ],
+                [
+                    "2024/8/26",
+                    252084
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "formatter":             function(a){            var result = [ ], counter = 0;            var num_array = a.data.toString().split('.');            var num = num_array[0];            var newstr = '';            for (var i = num.length - 1; i >= 10; i--) {                counter++;                result.unshift(num[i]);                if (!(counter % 3) && i != 0 && i != 10) {                     result.unshift(',');                }            }            if(num_array.length>1){                newstr = result.join('');                newstr += '.'+num_array[1];                return newstr;            }else{                return result.join('');            }            }
+            },
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markPoint": {
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "color": "#fff",
+                    "margin": 8
+                }
+            },
+            "markLine": {
+                "silent": false,
+                "precision": 2,
+                "label": {
+                    "show": true,
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "name": "\u5e73\u5747\u503c",
+                        "type": "average"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "D4 Daily Views",
+                "POE2 Daily Views"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2024/8/5",
+                "2024/8/6",
+                "2024/8/7",
+                "2024/8/8",
+                "2024/8/9",
+                "2024/8/10",
+                "2024/8/11",
+                "2024/8/12",
+                "2024/8/13",
+                "2024/8/14",
+                "2024/8/15",
+                "2024/8/16",
+                "2024/8/17",
+                "2024/8/18",
+                "2024/8/19",
+                "2024/8/20",
+                "2024/8/21",
+                "2024/8/22",
+                "2024/8/23",
+                "2024/8/24",
+                "2024/8/25",
+                "2024/8/26"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "Youtube Daily Views Trend",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "right",
+        "top": "top",
+        "feature": {
+            "saveAsImage": {
+                "pixelRatio": 10
+            },
+            "dataZoom": {
+                "yAxisIndex": "none"
+            },
+            "restore": {}
+        }
+    }
+};
+        chart_cbfe4edefdd541fca027f1f98ba7166b.setOption(option_cbfe4edefdd541fca027f1f98ba7166b);
+    </script>
+</body>
+</html>
